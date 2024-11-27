@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #003366; /* Navy color for header */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 1rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 2rem;
+}
+#search-filter {
+    margin-bottom: 2rem;
+}
+#search-filter input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #e0e0e0; /* Light grey background for search box */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#car-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+#car-list .car {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: #003366; /* Navy footer background */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+}
